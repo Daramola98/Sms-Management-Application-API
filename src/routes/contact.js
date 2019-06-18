@@ -10,9 +10,9 @@ const {
 } = ContactController;
 
 export default (router) => {
-  router.post('/api/v1/contact', ContactValidator, ValidationMiddleware, createContact);
-  router.get('/api/v1/contact/:id', getContact);
-  router.get('/api/v1/contact/:id/messages', getContactMessages);
+  router.post('/api/v1/contacts', ContactValidator, ValidationMiddleware, createContact);
+  router.get('/api/v1/contacts/:id', getContact);
+  router.get('/api/v1/contacts/:id/messages', getContactMessages);
   router.get('/api/v1/contacts', getContacts);
-  router.delete('/api/v1/contact/:id', deleteContact);
+  router.delete('/api/v1/contacts/:id', deleteContact);
 };
