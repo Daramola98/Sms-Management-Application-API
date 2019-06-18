@@ -14,7 +14,7 @@ The following should be installed in your machine
 ## How To Install And Run The Application
 * Clone this Repo and `cd` into it
 * Install all the dependancies by running the `yarn install`
-* Ensure to setup  `MySQL on your local machine`
+* Ensure to setup  `PostgreSQL on your local machine`
 * Create a `.env` file and request for values from ADMIN
 * Substitute all these values `DB_USERNAME_DEV`, `DB_PASSWORD_DEV`, `DB_NAME_DEV`, and `DB_HOST_DEV`, with the values used to setup PostgreSQL on your local machine
 * Run `yarn dev:migration` to setup the database tables.
@@ -24,7 +24,7 @@ The following should be installed in your machine
 * Run `yarn dev:migration` for development environment
 
 ## To undo migration to database on development environments
-* Run `yarn dev:undoall:migration` for development environment
+* Run `yarn dev:undo:migration` for development environment
 
 ## API ENDPOINTS ##
 <table>
