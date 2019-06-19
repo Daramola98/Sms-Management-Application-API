@@ -26,6 +26,18 @@ The following should be installed in your machine
 ## To undo migration to database on development environments
 * Run `yarn dev:undo:migration` for development environment
 
+## API FEATURES ##
+
+- Users can create a contact
+- Users can fetch all contacts
+- Users can get a contact
+- Users can delete a contact
+- Users can create a sms
+- Users can get all sms associated with a contact
+- Users can get a sms
+- Users can delete a sms
+
+
 ## API ENDPOINTS ##
 <table>
     <tr><th>HTTP VERB</th><th>ENDPOINTS</th><th>DESCRIPTION</th><th>QUERY</th></tr>
